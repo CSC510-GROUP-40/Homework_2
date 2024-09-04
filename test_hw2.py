@@ -1,5 +1,4 @@
-import pytest
-from hw2_debugging import merge_sort 
+from hw2_debugging import merge_sort
 
 def test_merge_sort_1():
     # Test for a single element in an array
