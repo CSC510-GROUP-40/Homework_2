@@ -17,7 +17,7 @@ jobs:
           pip install bandit
           pip install git+https://github.com/blengerich/pylint-badge
           pylint **/*.py
-          pylint-badge **/*.py pylint.svg
+          pylint-badge hw2_debugging.py pylint.svg
           bandit --exclude="test_*.py" . 
       - name: Set Up Coverage
         run: |
