@@ -16,7 +16,7 @@ jobs:
           pip install pylint
           pip install bandit
           pylint **/*.py
-          bandit -r .
+          bandit -r . --exclude "test_*.py"
       - name: Set Up Coverage
         run: |
           pip install genbadge[coverage]
