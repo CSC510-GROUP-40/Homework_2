@@ -34,4 +34,16 @@ jobs:
           coveralls --service=github-actions
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+      - name: autopep8
+        id: autopep8
+        uses: peter-evans/autopep8@v2
+        with:
+          args: --exit-code --recursive --in-place --aggressive .
+      - name: Commit autopep8 changes
+        if: steps.autopep8.outputs.exit-code == 2
+        run: |
+          git config --global user.name 'lingjunliu'
+          git config --global user.email 'rienshaliu@gmail.com'
+          git commit -am "Automated autopep8 fixes"
+          git push
           
