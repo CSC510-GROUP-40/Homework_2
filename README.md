@@ -5,6 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/CSC510-GROUP-40/Homework_2/badge.svg?branch=main)](https://coveralls.io/github/CSC510-GROUP-40/Homework_2?branch=main)
 [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 ![pylint](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)
+![autopep8](./autopep8.svg)
 ### Contributing
 Contributions to the Merge Sort Program are welcome! If you have suggestions for improvements or new features, please fork the repository and create a pull request. You can also open an issue to discuss your ideas.
 
