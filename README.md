@@ -32,14 +32,8 @@ The following are the tasks that were performed:
 1. Clone the repository:
    ```bash
    git clone https://github.com/CSC510-GROUP-40/Homework_2.git
-   cd HOMEWORK_1
-2. Install Dependencies: Install pytest for running test cases.
-
-### Download and Unzip `hw2.zip`
-- Download `hw2.zip` from the provided source.
-- Unzip the file to extract the contents. You will find the following files:
-  - `hw2_debugging.py`: Contains the faulty implementation of `mergeSort`.
-  - `rand.py`: Contains helper methods used by `mergeSort`.
+   cd Homework_2
+2. Install Dependencies by running 'pip install -r requirements.txt'
 
 ### Execute AutoPep8 and Two (2)Static Analysis Tools
 - Use the following tools to analyze the code:
@@ -49,7 +43,7 @@ The following are the tasks that were performed:
   
 To run these tools, use the following commands:
 `bash
-autopep8 --in-place --aggressive --aggressive hw2_debugging.py rand.py
+autopep8 --in-place --aggressive hw2_debugging.py rand.py
 pylint hw2_debugging.py rand.py
 bandit hw2_debugging.py rand.py
 '
