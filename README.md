@@ -41,18 +41,18 @@ The following are the tasks that were performed:
   - `hw2_debugging.py`: Contains the faulty implementation of `mergeSort`.
   - `rand.py`: Contains helper methods used by `mergeSort`.
 
-## 2. Execute AutoPep8 and Two (2)Static Analysis Tools
+### Execute AutoPep8 and Two (2)Static Analysis Tools
 - Use the following tools to analyze the code:
   1. **AutoPep8**: Automatically formats the code to conform with the PEP8 style guide.
   2. **Pylint**: A static analysis tool to identify errors, style issues, and other potential problems in Python code.
   3. **Bandit**: Finds common security issues in python code.
   
 To run these tools, use the following commands:
-```bash
+`bash
 autopep8 --in-place --aggressive --aggressive hw2_debugging.py rand.py
 pylint hw2_debugging.py rand.py
 bandit hw2_debugging.py rand.py
-
+'
 ### Contributing
 Contributions to the Merge Sort Program are welcome! If you have suggestions for improvements or new features, please fork the repository and create a pull request. You can also open an issue to discuss your ideas.
 
