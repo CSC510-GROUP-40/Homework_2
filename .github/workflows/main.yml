@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - lawrence/feature/pylintbadge 
-
+permissions: write-all
 jobs:
   test:
     runs-on: ubuntu-latest
