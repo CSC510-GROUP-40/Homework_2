@@ -20,7 +20,6 @@ jobs:
           pip install pytest
           pip install pylint
           pip install bandit
-          pip install git+https://github.com/blengerich/pylint-badge
           pylint **/*.py
           bandit --exclude="test_*.py" . 
       - name: Set Up Coverage
