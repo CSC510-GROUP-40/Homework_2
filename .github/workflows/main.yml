@@ -1,8 +1,5 @@
 name: Merge Sort Test
-on: 
-  push:
-    branches:
-      - lawrence/feature/pylintbadge 
+on: [push]
 permissions: write-all
 jobs:
   test:
