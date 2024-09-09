@@ -64,9 +64,9 @@ To Contribute
 - Open a pull request.
 
 
-## License
+### License
 This project is licensed under the Apache License 2.0 See the LICENSE file for more details.
 
-## Contact Information
+### Contact Information
 In case of any issues, please raise an issue on this repository.
 Our team of developers monitors the issues and would be happy to answer any and all questions you have about this project!
