@@ -1,6 +1,7 @@
 """replaces elements in array with number in the range 1 to 20"""
 import secrets
 
+
 def random_array(arr):
     """replaces elements in array with number in the range 1 to 20
 
