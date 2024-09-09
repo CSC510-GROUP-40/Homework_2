@@ -33,7 +33,8 @@ The following are the tasks that were performed:
    ```bash
    git clone https://github.com/CSC510-GROUP-40/Homework_2.git
    cd Homework_2
-2. Install Dependencies by running 'pip install -r requirements.txt'
+   ```
+2. Install Dependencies by running `pip install -r requirements.txt`
 
 ### Execute AutoPep8 and Two (2)Static Analysis Tools
 - Use the following tools to analyze the code:
@@ -42,19 +43,20 @@ The following are the tasks that were performed:
   3. **Bandit**: Finds common security issues in python code.
   
 To run these tools, use the following commands:
-`bash
+```bash
 autopep8 --in-place --aggressive hw2_debugging.py rand.py
 pylint hw2_debugging.py rand.py
 bandit hw2_debugging.py rand.py
-'
+```
+
 ### Contributing
 Contributions to the Merge Sort Program are welcome! If you have suggestions for improvements or new features, please fork the repository and create a pull request. You can also open an issue to discuss your ideas.
 
 To Contribute
 - Fork the repository.
-- Create a new branch (git checkout -b feature-branch).
-- Make your changes and commit them (git commit -m 'Add some feature').
-- Push to the branch (git push origin feature-branch).
+- Create a new branch (`git checkout -b feature-branch`).
+- Make your changes and commit them (`git commit -m 'add some feature`).
+- Push to the branch (`git push origin feature-branch`).
 - Open a pull request.
 
 
