@@ -45,7 +45,6 @@ jobs:
           sed -i "s|(https://github.com/CSC510-GROUP-40/Homework_2/actions/runs.*)|(https://github.com/CSC510-GROUP-40/Homework_2/actions/runs/${{ github.run_id }})|" README.md
 
       - name: Commit autopep8 changes
-        if: steps.autopep8.outputs.exit-code == 2
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
