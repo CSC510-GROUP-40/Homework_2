@@ -1,4 +1,4 @@
-name: Merge Sort Test
+name: Static Analysis and Merge Sort Test
 on: [push]
 permissions: write-all
 jobs:
