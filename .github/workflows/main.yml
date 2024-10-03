@@ -47,9 +47,9 @@ jobs:
       - name: Commit autopep8 changes
         if: steps.autopep8.outputs.exit-code == 2
         run: |
-          git config --global user.name 'lingjunliu'
-          git config --global user.email 'rienshaliu@gmail.com'
-          git commit -am "Automated autopep8 fixes"
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am "Automated autopep8 fixes and Update README.md with the latest run ID"
           git push
       
           
