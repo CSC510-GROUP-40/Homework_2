@@ -3,9 +3,9 @@
 [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-yellow.svg)](https://www.linux.org/)
 [![Merge Sort Test](https://github.com/CSC510-GROUP-40/Homework_2/actions/workflows/main.yml/badge.svg)](https://github.com/CSC510-GROUP-40/Homework_2/actions/workflows/main.yml)
 [![Coverage Status](https://coveralls.io/repos/github/CSC510-GROUP-40/Homework_2/badge.svg?branch=main)](https://coveralls.io/github/CSC510-GROUP-40/Homework_2?branch=main)
-[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
-![pylint](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)
-![autopep8](./autopep8.svg)
+[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/CSC510-GROUP-40/Homework_2/actions/runs/10780371343)
+[![pylint](https://img.shields.io/badge/PyLint-10.00-brightgreen?logo=python&logoColor=white)](https://github.com/CSC510-GROUP-40/Homework_2/actions/runs/10780371343)
+[![autopep8](./autopep8.svg)](https://github.com/CSC510-GROUP-40/Homework_2/actions/runs/10780371343)
 # Homework 2 - Debugging
 
 ## Project Overview

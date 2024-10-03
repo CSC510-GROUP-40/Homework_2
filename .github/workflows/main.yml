@@ -39,6 +39,11 @@ jobs:
         uses: peter-evans/autopep8@v2
         with:
           args: --exit-code --recursive --in-place --aggressive .
+      
+      - name: Update README.md with latest run
+        run: |
+          sed -i "s|(https://github.com/CSC510-GROUP-40/Homework_2/actions/runs.*)|(https://github.com/CSC510-GROUP-40/Homework_2/actions/runs/${{ github.run_id }})|" README.md
+
       - name: Commit autopep8 changes
         if: steps.autopep8.outputs.exit-code == 2
         run: |
@@ -46,4 +51,5 @@ jobs:
           git config --global user.email 'rienshaliu@gmail.com'
           git commit -am "Automated autopep8 fixes"
           git push
+      
           
